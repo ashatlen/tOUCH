@@ -67,9 +67,11 @@
         }
         else
         {
-            aChar= aChar.toUpperCase();
+            if (self.shiftActive)
+                aChar= aChar.toUpperCase();
             self.shiftActive= false;
         }
+
         if (aChar == 'Del' && typed.length > 1) {
             typed= string.substr(-1);
         }
