@@ -1,4 +1,6 @@
 ﻿function keyboardViewModel () {
+    var self= this;
+    var shiftActive= false;
     /*    ko.bindingHandlers.*/
     //var keyHash= new Array[100];
     var registerKey = function(element, keyValue) {
@@ -17,17 +19,20 @@
                 : (code == 222) ? 'Æ'
                 : (code == 192) ? 'Ø'
                 : (code == 32) ? ' '
-                : (code == 46) ? "Del"
+                : (code == 8) ? "Del"
+                : (code == 16) ? "Shift"
+                //todo: Add functions for handling arrow left/right (?)
+                : code <= 31 ? undefined  // non-printable - and not handled
                 : String.fromCharCode(code);
         return aKey;
     }
 
     function getCharElement(aChar) {
-        if (aChar == undefined) return undefined;
+        //if (aChar == undefined) return undefined;
         var aKey =
               (aChar == ' ') ? 'Space'
             : (aChar.length == 1) ? aChar.toUpperCase()
-            : aChar; // => "Del" - the only non-printable character so far...
+            : aChar; // => "Shift" or "Del" (potentially other non-printables)...
         var keyElt= $("#key" + aKey);
         if (keyElt == null || keyElt.length === 0)
             return undefined;
@@ -37,6 +42,7 @@
     var handleKeyPress = function (data) {
         var aChar = getCharValue(data);
         if (aChar == undefined) return;
+
         var keyElement = getCharElement(aChar);
         if (keyElement != undefined) {
             keyElement.className = 'KeyButtonPressed';
@@ -55,6 +61,15 @@
     function updateInputText(aChar)
     {
         var typed= typedText();
+        if (aChar == 'Shift') {
+            self.shiftActive= true;
+            return; // no key to add (yet)
+        }
+        else
+        {
+            aChar= aChar.toUpperCase();
+            self.shiftActive= false;
+        }
         if (aChar == 'Del' && typed.length > 1) {
             typed= string.substr(-1);
         }
@@ -102,6 +117,7 @@
         expectedText: expectedText,
         typedText: typedText,
         matchingText: matchingText,
-        nonMatchingText: nonMatchingText
+        nonMatchingText: nonMatchingText,
+        shiftActive: shiftActive
         };
     };

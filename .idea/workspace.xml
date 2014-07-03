@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8748223-e379-49cf-bd77-67f2e8c6c174" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/tOUCH.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/keyboard.viewmodel.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/KeyboardScreenController.cs" afterPath="$PROJECT_DIR$/KeyboardScreen/KeyboardScreenController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renJS/Index.html" afterPath="$PROJECT_DIR$/renJS/Index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renJS/keyboard.viewmodel.js" afterPath="$PROJECT_DIR$/renJS/keyboard.viewmodel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renJS/tOUCH.css" afterPath="$PROJECT_DIR$/renJS/tOUCH.css" />
     </list>
     <ignored path="tOUCH.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/renJS/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26650366" vertical-offset="1106" max-vertical-offset="1515">
-              <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+            <state vertical-scroll-proportion="-12.041667" vertical-offset="281" max-vertical-offset="1515">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyboard.viewmodel.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tOUCH.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/renJS/tOUCH.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1050">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keyboard.viewmodel.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.692307" vertical-offset="480" max-vertical-offset="1695">
-              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.36855036" vertical-offset="240" max-vertical-offset="1935">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -69,6 +72,7 @@
       <list>
         <option value="$PROJECT_DIR$/keyboard.viewmodel.js" />
         <option value="$PROJECT_DIR$/renJS/Index.html" />
+        <option value="$PROJECT_DIR$/renJS/tOUCH.css" />
         <option value="$PROJECT_DIR$/renJS/keyboard.viewmodel.js" />
       </list>
     </option>
@@ -278,31 +282,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js</url>
-          <line>79</line>
+          <line>94</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js</url>
-          <line>58</line>
+          <line>73</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js</url>
-          <line>32</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="24" />
+          <line>70</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -316,32 +310,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/renJS/lib/jquery/jquery-1.9.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33256352" vertical-offset="40941" max-vertical-offset="143865">
+        <state vertical-scroll-proportion="0.0" vertical-offset="40941" max-vertical-offset="143865">
           <caret line="2751" column="0" selection-start-line="2751" selection-start-column="0" selection-end-line="2751" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renJS/tOUCH.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.692307" vertical-offset="480" max-vertical-offset="1695">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/renJS/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26650366" vertical-offset="1106" max-vertical-offset="1515">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+        <state vertical-scroll-proportion="-12.041667" vertical-offset="281" max-vertical-offset="1515">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renJS/tOUCH.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1050">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renJS/keyboard.viewmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36855036" vertical-offset="240" max-vertical-offset="1935">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
