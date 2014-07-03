@@ -1,0 +1,68 @@
+﻿@model Touch_application.Models.KeyboardScreenModel
+
+@{
+    ViewBag.Title = "KeyboardScreen";
+}
+<div data-bind="event: { keydown: handleKeyPress, keyup: handleKeyRelease}">
+    <h2 class='ui-dialog-title'>tOUCH</h2>
+    <p class="error" data-bind="text: error"></p>
+    <div id="KeyboardLayoutSection" class="ui-tabs-panel">
+        <table id="KeyboardLayoutTableRow1" class="ui-tabs KeyboardLayout">
+            <tr>
+                <td class="KeyCell"><button class="KeyButton" id="keyQ">Q</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyW">W</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyE">E</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyR">R</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyT">T</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyY">Y</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyU">U</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyI">I</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyO">O</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyP">P</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyÅ">Å</button></td>
+            </tr>       
+        </table>
+        <table id="KeyboardLayoutTableRow2" class="ui-tabs KeyboardLayout">
+            <tr>
+                <td class="KeyAdjust2Q"></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyA">A</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyS">S</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyD">D</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyF">F</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyG">G</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyH">H</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyJ">J</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyK">K</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyL">L</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyØ">Ø</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyÆ">Æ</button></td>
+            </tr>       
+        </table>
+        <table id="KeyboardLayoutTableRow3" class="ui-tabs KeyboardLayout">
+            <tr>
+                <td class="KeyAdjust3Q"></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyZ">Z</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyX">X</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyC">C</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyV">V</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyB">B</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyN">N</button></td>
+                <td class="KeyCell"><button class="KeyButton" id="keyM">M</button></td>
+                <!--
+                    <td class="KeyCell"><button class="KeyButton" id="key,">K</button></td>
+                    <td class="KeyCell"><button class="KeyButton" id="key.">L</button></td>
+                    <td class="KeyCell"><button class="KeyButton" id="key-">Ø</button></td>
+                    -->
+            </tr>       
+        </table>
+        <div style="align-self: center">
+            <label data-bind="text: typedText"></label>
+            <label style="color: green" data-bind="text: matchingText"></label><label style="color: red" data-bind="text: nonMatchingText"></label>
+        </div>
+    </div>
+</div>
+@section scripts {
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/touch")
+}

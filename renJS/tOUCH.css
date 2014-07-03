@@ -1,0 +1,65 @@
+.envlable{
+    opacity:0.75;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+    z-index: 10000;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    }
+.envtext {
+    font-family:Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 110px;
+    height: 20px;
+    }
+
+.envtextTest {
+    background-color: green;
+    color: white;
+    }
+
+.envtextPreProd {
+    background-color: red;
+    color: white;
+    }
+.KeyboardLayout {
+    margin: 5px;
+}
+.KeyCell {
+    margin: 10px;
+    cell-padding: 5px;
+}
+.KeyButton {
+    font-size: 20px;
+    font-weight: 600;
+    background: green;
+}
+
+.error {
+    font-style: italic;
+    font-color: red;
+}
+
+.ReadingPane {
+    margin-left: 100px;
+    background: #aaaaaa;
+}
+
+.KeyboardLayoutSection {
+    margin-left: 100px;
+    background: #ffffdd;
+}
+
+#KeyboardLayoutTableRow1 {
+    margin-left: 0px;
+
+}
+#KeyboardLayoutTableRow2 {
+    margin-left: 10px;
+}
+#KeyboardLayoutTableRow3 {
+    margin-left: 20px;
+}
