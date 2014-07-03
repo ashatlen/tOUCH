@@ -20,7 +20,6 @@
                <td class="KeyCell"><button class="KeyButton" id="keyDEL">Del</button></td>
            </tr>
         </table>
-
         <table id="KeyboardLayoutTableRow1" class="ui-tabs KeyboardLayout">
             <tr>
                 <td class="KeyCell"><button class="KeyButton" id="keyQ">Q</button></td>
@@ -86,7 +85,7 @@
 <script>
     $(document).ready(function() {
         var keyboardVM= new keyboardViewModel();
-        $(document).keypress(keyboardVM.handleKeyPress);
+        $(document).keydown(keyboardVM.handleKeyPress);
         $(document).keyup(keyboardVM.handleKeyRelease);
         // Initiate the Knockout bindings
         ko.applyBindings(keyboardVM);

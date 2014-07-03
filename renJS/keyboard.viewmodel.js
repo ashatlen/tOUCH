@@ -6,7 +6,7 @@
     };
 
     var expectedText = ko.observable("The quick red fox jumbed on the lazy brown dogs back");
-    var typedText = ko.observable("Value should be viewed here: ");
+    var typedText = ko.observable("");
     var matchingText = ko.observable("");
     var nonMatchingText = ko.observable("");
 
@@ -16,35 +16,35 @@
         var aKey = (code == 221 || code == 219) ? 'Å'
                 : (code == 222) ? 'Æ'
                 : (code == 192) ? 'Ø'
-                : (code == 32) ? 'Space'
-                : (code == 999) ? "Del"
+                : (code == 32) ? ' '
+                : (code == 46) ? "Del"
                 : String.fromCharCode(code);
         return aKey;
     }
 
     function getCharElement(aChar) {
         if (aChar == undefined) return undefined;
-
-        aChar = aChar.length == 1 ?  aChar.toUpperCase() : aChar;
-        var keyElt= $("#key" + aChar);
+        var aKey =
+              (aChar == ' ') ? 'Space'
+            : (aChar.length == 1) ? aChar.toUpperCase()
+            : aChar; // => "Del" - the only non-printable character so far...
+        var keyElt= $("#key" + aKey);
         if (keyElt == null || keyElt.length === 0)
             return undefined;
         return keyElt[0];
     }
 
-    var handleKeyPress = function (data, event) {
+    var handleKeyPress = function (data) {
         var aChar = getCharValue(data);
         if (aChar == undefined) return;
         var keyElement = getCharElement(aChar);
         if (keyElement != undefined) {
             keyElement.className = 'KeyButtonPressed';
             updateInputText(aChar);
-
+            data.preventDefault= true;
         }
-
-        event.preventDefault= true;
         };
-    var handleKeyRelease = function (data, event) {
+    var handleKeyRelease = function (data) {
         var aChar = getCharValue(data);
         if (aChar == undefined) return;
         var keyElement = getCharElement(aChar);
@@ -54,8 +54,15 @@
 
     function updateInputText(aChar)
     {
-        typedText(typedText() + aChar);
-        var result= compareExpectedTextWithTyped(expectedText(), typedText());
+        var typed= typedText();
+        if (aChar == 'Del' && typed.length > 1) {
+            typed= string.substr(-1);
+        }
+        else {
+            typed= typed + aChar;
+        }
+        typedText(typed);
+        var result= compareExpectedTextWithTyped(expectedText(), typed);
         matchingText(result[0]);
         nonMatchingText(result[1]);
     }
@@ -64,20 +71,26 @@
     {
         var nonMatchingText= "";
         var matchingText= "";
-        var bound= Math.max(expected.length, typed.length);
-        for(var idx= 0; idx < bound; idx++)
-        {
-            if (idx > expected.length || idx > typed.length)
-            {
+        //var bound= Math.max(expected.length, typed.length);
+        var bound= typed.length;
+        for(var idx= 0; idx < bound; idx++) {
+            if (idx >= expected.length)  {
+                //would always be...if (idx < typed.length) {
+                    // out of bounds - too many characters entered!
+                    nonMatchingText += typed[idx];
+                //}
+            }
+            else if (expected[idx] == typed[idx]) {
+                // the character matches so far...
+                matchingText += typed[idx];
+            }
+            else {
+                // the character did not match..
+                //todo: if a mismatch is detected, should all following chars be "non-matching"?
                 nonMatchingText += typed[idx];
             }
-            else if( expected[idx] == typed[idx])
-                matchingText += typed[idx];
-            else
-                nonMatchingText += typed[idx];
-
-            return new Array() {matchingText, nonMatchingText};
         }
+        return [matchingText, nonMatchingText];
     }
 
     var error = ko.observable();
