@@ -15,18 +15,46 @@
     width: 110px;
     height: 20px;
     }
-
 .envtextTest {
     background-color: green;
     color: white;
     }
-
 .envtextPreProd {
     background-color: red;
     color: white;
     }
+.error {
+    font-style: italic;
+    font-color: red;
+}
+.ReadingPane {
+    margin-left: 100px;
+    background: #aaaaaa;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.KeyboardLayoutArea {
+    margin-left: 100px;
+    width: 400px;
+    text-align: center;
+    background: #ffffdd;
+}
 .KeyboardLayout {
     margin: 5px;
+}
+#KeyboardLayoutTableRow1 {
+    margin-left: 0px;
+}
+#KeyboardLayoutTableRow2 {
+    margin-left: 37px;
+}
+#KeyboardLayoutTableRow3 {
+    margin-left: 42px;
 }
 .KeyCell {
     margin: 10px;
@@ -36,21 +64,6 @@
     font-size: 20px;
     font-weight: 600;
     background: green;
-}
-
-.error {
-    font-style: italic;
-    font-color: red;
-}
-
-.ReadingPane {
-    margin-left: 100px;
-    background: #aaaaaa;
-}
-
-.KeyboardLayoutSection {
-    margin-left: 100px;
-    background: #ffffdd;
 }
 
 .TypingPane {
@@ -64,10 +77,9 @@
     font-size: 26px;
     float: left;
 }
-
 .matchKey {
     color: green;
-    }
+}
 
 .wrongKey {
     color: red;
@@ -76,16 +88,4 @@
 .laterKey {
     background: grey;
     color: grey;
-}
-
-
-#KeyboardLayoutTableRow1 {
-    margin-left: 0px;
-
-}
-#KeyboardLayoutTableRow2 {
-    margin-left: 37px;
-}
-#KeyboardLayoutTableRow3 {
-    margin-left: 42px;
 }
