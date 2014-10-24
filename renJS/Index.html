@@ -29,15 +29,16 @@
 </script>
 
 <div style="visibility:visible;" class="envlable"><p class="envtext envtextTest">Utvikling</p></div>
-<div class="center">
+
+<div class="center table-bordered">
     <h2 style="text-align: center">tOUCH</h2>
     <p style="text-align: center" class="error" data-bind="text: error"></p>
-    <span style="margin_left: 20px"><button class="btn" id="resetButton">Nullstill</button></span>
-
+    <span style="margin_left: 20px"><button class="btn" id="resetButton">Nullstill</button>
+    </span>
     <span id="ExpectedText" class="ReadingPane" data-bind="text: expectedText"></span>
-    <div> <p class="input-mini" id="diffDisplay" data-bind="text: textDifference"></p><p id="strokeDisplay" data-bind="text: numberOfStrokes"></p></div>
-    <div id="KeyboardLayoutSection" class="ui-tabs-panel KeyboardLayoutArea">
-        <table id="KeyboardLayoutTableRow0" class="ui-tabs KeyboardLayout">
+    <span> <p class="input-mini" id="diffDisplay" data-bind="text: textDifference"></p><p id="strokeDisplay" data-bind="text: numberOfStrokes"></p></span>
+    <div id="KeyboardLayoutSection" class=" KeyboardLayoutArea">
+        <table id="KeyboardLayoutTableRow0" class="KeyboardLayout">
         <tr>
            <td class="KeyCell"><button class="KeyButton" id="keyDel">Del</button></td>
         </tr>
@@ -98,10 +99,9 @@
         </table>
     </div>
     <div class="center">
-        <div style="float:left">
         <table>
         <tr>
-            <td><div style="width: 100px;"></div>
+            <td>
                 <div style="position: absolute; left: 100px;">
                     <div id="contentOverlay" style="position: absolute; left: 5px; top: 5px"></div>
                     <textarea style="left: 5px; top: 5px; min-width: 200px; min-height: 50px" id="typingPane" class="TypingPane"></textarea>
@@ -109,7 +109,6 @@
             </td>
         </tr>
         </table>
-        </div>
     </div>
 </div>
 </body>
