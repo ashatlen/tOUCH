@@ -103,7 +103,7 @@ function keyboardViewModel ()
         var code = data.keyCode;
         var aKey = (code == 221 || code == 219) ? 'Å'
                 : (code == 222) ? 'Æ'
-                : (code == 192) ? 'Ø'
+                : (code == 186 || code == 192) ? 'Ø'
                 : (code == 32) ? ' '
                 : (code == 8) ? "Del"
                 : (code == 46) ? "Del"
@@ -139,24 +139,26 @@ function keyboardViewModel ()
         var countThisKey= true;
         var aChar = getCharValue(data);
         if (aChar != undefined) {
-            var keyElement = getCharElement(aChar);
-            if (keyElement !== undefined) {
-                data.preventDefault();
-                data.stopPropagation();
-                keyElement.className = 'KeyButtonPressed';
-                if (aChar == 'Shift') {
-                    countThisKey= false;    // no keystroke yet
-                    self.shiftActive = true;
+            data.preventDefault();
+            data.stopPropagation();
+            if (aChar == 'Enter') {
+                // todo: Check if the phrase is correct before getting the next?
+                init(phraseLib.nextPhrase());
+                // todo: Get new line on display, clean up "points" etc...
+            }
+            else {
+                var keyElement = getCharElement(aChar);
+                if (keyElement !== undefined) {
+                    keyElement.className = 'KeyButtonPressed';
+                    if (aChar == 'Shift') {
+                        countThisKey= false;    // no keystroke yet
+                        self.shiftActive = true;
+                    }
+                    else
+                        updateInputText(aChar);
+                    var noOfWrongCharacters = CalculateDifference(expectedText(), typedText());
+                    textDifference(noOfWrongCharacters);
                 }
-                else if (aChar == 'Enter') {
-                    typedText(""); // Clear all TODO: Get new line on display, clean up "points" etc...
-                    var pane = $("#typingPane")[0];
-                    pane.removeAll();
-                }
-                else
-                    updateInputText(aChar);
-                var noOfWrongCharacters = CalculateDifference(expectedText(), typedText());
-                textDifference(noOfWrongCharacters);
             }
         }
         if (countThisKey)
@@ -181,12 +183,41 @@ function keyboardViewModel ()
 
     function init(textString)
     {
-        expectedText(textString)
+        if (textString == undefined)
+            textString= phraseLib.getPhrase();
         typedText("");
         typePanel.clearPanel();
+        expectedText(textString)
     }
 
-    var phraseLib= null;
+    // Insert here: Should refactor later...
+//    var currentPhrase= 0;
+//    var phraseLibrary= [
+//        "Hei på deg",
+//        "Hvordan går det med deg",
+//        "Gullfisken min skal på svømmetur",
+//        "The quick red fox jumped on the lazy brown dogs back"
+//    ];
+//
+//    function getPhrase()
+//    {
+//        if (currentPhrase > phraseLibrary.length) currentPhrase= 0;
+//        return phraseLibrary[currentPhrase];
+//    };
+//
+//    function nextPhrase()
+//    {
+//        if (currentPhrase > phraseLibrary.length)
+//            currentPhrase= 0;
+//        else
+//            currentPhrase++;
+//        return current();
+//    };
+//
+//    var phraseLib= {
+//        getPhrase: getPhrase,
+//        nextPhrase: nextPhrase
+//    };
 
     function resetTyping (data, fn)
     {
@@ -235,7 +266,7 @@ function keyboardViewModel ()
         var typedKeys= [];
         var match= false;
         for(var idx= 0; idx < typed.length; idx++) {
-            if ((idx < expected.length)  // not out of bounds!
+            if ((idx < expected.length)  // if not out of bounds!
                 && (expected[idx] == typed[idx])) {// the character matches at the current position...
                 match= true;
             }
@@ -318,6 +349,7 @@ function createPhraseLibrary(startNo)
 //    var self= this;
     var currentPhrase= startNo;
     var phraseLibrary= [
+        "Hei",
         "Hei på deg",
         "Hvordan går det med deg",
         "Gullfisken min skal på svømmetur",
@@ -326,8 +358,8 @@ function createPhraseLibrary(startNo)
 
     function current()
     {
-        if (currentPhrase > phraseLibrary.length) currentPhrase= 0;
-        phraseLibrary[currentPhrase];
+        if (currentPhrase >= phraseLibrary.length) currentPhrase= 0;
+        return phraseLibrary[currentPhrase];
     };
 
     function next()
