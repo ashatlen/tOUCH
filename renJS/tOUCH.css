@@ -41,15 +41,17 @@
     table-layout: fixed;
     margin-left:40px;
     margin-right:40px;
+    margin-bottom: 4px;
 }
 .numeric-display{
     margin-left:5px;
     margin-right:5px;
     padding-left:10px;
     padding-right:10px;
+    padding-top: 4px;
     vertical-align: middle;
     font-size: larger;
-    height: 25px;
+    height: 26px;
     width: 25px;
     background-color: lightblue;
     text-align: right;
@@ -70,6 +72,7 @@
     background: #ffffdd;
     margin-left: 40px;
     margin-right: 40px;
+    padding: 3px;
 }
 .KeyboardLayout {
     margin: 5px;

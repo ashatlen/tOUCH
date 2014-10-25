@@ -30,7 +30,7 @@
 
 <div style="visibility:visible;" class="envlable"><p class="envtext envtextTest">Utvikling</p></div>
 
-<div style="position: fixed; left:70px; top: 40px;width:500px; height: 400px" class="app-area center table-bordered">
+<div style="position: fixed; left:70px; top: 40px;width:500px; height: 400px" class="app-area">
     <h2 style="position: relative;text-align: center">tOUCH</h2>
     <p style="position: relative;text-align: center" class="error" data-bind="text: error"></p>
     <div style=" position:relative; down:40px; margin_left: 20px; flow: left;">
@@ -38,8 +38,9 @@
                 <tr>
                     <td>Må rettes:</td>
                     <td><div class="numeric-display fault-number" id="diffDisplay" data-bind="text: textDifference"></div></td>
-                    <td>Antall tastetrykk:</td><td><div class="numeric-display" id="strokeDisplay" data-bind="text: numberOfStrokes"></div></td>
-                    <td><button style="position:relative; left:20px;" class="btn-info" id="resetButton">Nullstill</button></td>
+                    <td>Antall tastetrykk:</td>
+                    <td><div class="numeric-display" id="strokeDisplay" data-bind="text: numberOfStrokes"></div></td>
+                    <td><button class="btn-info" id="resetButton">Nullstill</button></td>
                 </tr>
             </table>
     </div>
