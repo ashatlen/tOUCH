@@ -30,14 +30,20 @@
 
 <div style="visibility:visible;" class="envlable"><p class="envtext envtextTest">Utvikling</p></div>
 
-<div class="center table-bordered">
-    <h2 style="text-align: center">tOUCH</h2>
-    <p style="text-align: center" class="error" data-bind="text: error"></p>
-    <span style="margin_left: 20px"><button class="btn" id="resetButton">Nullstill</button>
-    </span>
-    <span id="ExpectedText" class="ReadingPane" data-bind="text: expectedText"></span>
-    <span> <p class="input-mini" id="diffDisplay" data-bind="text: textDifference"></p><p id="strokeDisplay" data-bind="text: numberOfStrokes"></p></span>
-    <div id="KeyboardLayoutSection" class=" KeyboardLayoutArea">
+<div style="position: fixed; left:70px; top: 40px;width:500px; height: 400px" class="app-area center table-bordered">
+    <h2 style="position: relative;text-align: center">tOUCH</h2>
+    <p style="position: relative;text-align: center" class="error" data-bind="text: error"></p>
+    <div style=" position:relative; down:40px; margin_left: 20px; flow: left;">
+            <table class="status-display">
+                <tr>
+                    <td>Må rettes:</td>
+                    <td><div class="numeric-display fault-number" id="diffDisplay" data-bind="text: textDifference"></div></td>
+                    <td>Antall tastetrykk:</td><td><div class="numeric-display" id="strokeDisplay" data-bind="text: numberOfStrokes"></div></td>
+                    <td><button style="position:relative; left:20px;" class="btn-info" id="resetButton">Nullstill</button></td>
+                </tr>
+            </table>
+    </div>
+    <div id="KeyboardLayoutSection" class="KeyboardLayoutArea">
         <table id="KeyboardLayoutTableRow0" class="KeyboardLayout">
         <tr>
            <td class="KeyCell"><button class="KeyButton" id="keyDel">Del</button></td>
@@ -102,6 +108,7 @@
         <table>
         <tr>
             <td>
+                <span id="ExpectedText" class="ReadingPane" data-bind="text: expectedText"></span>
                 <div style="position: absolute; left: 100px;">
                     <div id="contentOverlay" style="position: absolute; left: 5px; top: 5px"></div>
                     <textarea style="left: 5px; top: 5px; min-width: 200px; min-height: 50px" id="typingPane" class="TypingPane"></textarea>

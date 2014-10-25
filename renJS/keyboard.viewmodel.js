@@ -132,10 +132,20 @@ function keyboardViewModel ()
         return keyElt[0];
     }
 
+
+    var keyHandlingInProgress= false;
     // When a key is pressed, process the key (find the corresponding button (if any)
     // If the key is not a special key receive and analyse the new character with
-    // respect to the expected input.
+    // respect to the expected input
     var handleKeyDown = function (data) {
+        //todo: Stop keyboard repeatmode when pressing the key for a long time.
+        if (keyHandlingInProgress) {
+            data.preventDefault();
+            data.stopPropagation();
+            return;
+        }
+        keyDownHandlingInProgress= true;
+
         var countThisKey= true;
         var aChar = getCharValue(data);
         if (aChar != undefined) {
@@ -179,6 +189,7 @@ function keyboardViewModel ()
         else {
             console.log("Key element for char " + aChar + " not found")
         }
+        keyDownHandlingInProgress= false;
     };
 
     function init(textString)
