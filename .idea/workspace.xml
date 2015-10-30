@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8748223-e379-49cf-bd77-67f2e8c6c174" name="Default" comment="Got working key events with coloring. Still no solution on the Del-key">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projectFilesBackup/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/.name" afterPath="$PROJECT_DIR$/tOUCH/.idea/.name" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/encodings.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/encodings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/misc.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/modules.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/renJS.iml" afterPath="$PROJECT_DIR$/tOUCH/.idea/renJS.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/scopes/scope_settings.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/vcs.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/.idea/workspace.xml" afterPath="$PROJECT_DIR$/tOUCH/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/keyboard.viewmodel.js" afterPath="$PROJECT_DIR$/keyboard.viewmodel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/lib/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/lib/bootstrap/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/lib/bootstrap/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/lib/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/lib/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/jquery/jquery-1.9.1.intellisense.js" afterPath="$PROJECT_DIR$/lib/jquery/jquery-1.9.1.intellisense.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/jquery/jquery-1.9.1.js" afterPath="$PROJECT_DIR$/lib/jquery/jquery-1.9.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/jquery/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/lib/jquery/jquery-1.9.1.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/jquery/jquery-1.9.1.min.map" afterPath="$PROJECT_DIR$/lib/jquery/jquery-1.9.1.min.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/jquery/jquery-2.1.0.js" afterPath="$PROJECT_DIR$/lib/jquery/jquery-2.1.0.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/knockout/knockout-2.3.0.debug.js" afterPath="$PROJECT_DIR$/lib/knockout/knockout-2.3.0.debug.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/lib/knockout/knockout-2.3.0.js" afterPath="$PROJECT_DIR$/lib/knockout/knockout-2.3.0.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/renJS/tOUCH.css" afterPath="$PROJECT_DIR$/tOUCH.css" />
+    <list default="true" id="f8748223-e379-49cf-bd77-67f2e8c6c174" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/KeyboardScreen/Index.cshtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/KeyboardScreen/KeyboardScreenController.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/projectFilesBackup/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/renJS.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tOUCH/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keyboard.viewmodel.js" afterPath="$PROJECT_DIR$/keyboard.viewmodel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="37c8f738-c2f0-4f62-a747-0d9188fc8cae" name="Failed commit: Default" comment="Working version with phrases. Need to fix layout." />
@@ -47,26 +32,18 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="tOUCH" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="1920">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,8 +51,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="165">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,8 +61,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -94,22 +71,31 @@
       <file leaf-file-name="tOUCH.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tOUCH.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2085">
-              <caret line="34" column="7" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyboard.viewmodel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Levenshtein.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Levenshtein.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keyboard.viewmodel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="357" column="37" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
+            <state vertical-scroll-proportion="-0.6048387">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
               <folding>
+                <element signature="e#16#64#0" expanded="false" />
                 <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-                <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-                <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -135,15 +121,22 @@
       <list>
         <option value="$PROJECT_DIR$/renJS/package.json" />
         <option value="$PROJECT_DIR$/renJS/main.js" />
+        <option value="$PROJECT_DIR$/Index.html" />
+        <option value="$PROJECT_DIR$/keyboard.viewmodel.js" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="height" value="1101" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,7 +164,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +185,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +193,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
@@ -229,7 +223,7 @@
       <recent name="$PROJECT_DIR$/KeyboardScreen" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Index.html">
+  <component name="RunManager" selected="JavaScript Debug.Index.html (1)">
     <configuration default="false" name="Index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" uri="http://localhost:63342/tOUCH/renJS/Index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -242,17 +236,15 @@
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
+    <configuration default="false" name="Index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tOUCH/Index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <method />
-    </configuration>
-    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
-      <setting name="configLocationType" value="CONFIG_FILE" />
-      <setting name="settingsFile" value="" />
-      <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
@@ -260,6 +252,13 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
@@ -275,18 +274,21 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.keyboard.viewmodel.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.keyboard.viewmodel.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.keyboard.viewmodel.js" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +327,19 @@
       <option name="project" value="LOCAL" />
       <updated>1414190718420</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding file to support Electron packaging">
+      <created>1441734858534</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1441734858534</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Levenshtein.js to prj">
+      <created>1441741720401</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1441741720401</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -349,22 +363,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1101" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32650602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23114869" sideWeight="0.5016611" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23064771" sideWeight="0.49833888" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23752496" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32650602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27710843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771084" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23752496" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35777998" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32650602" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32743362" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -395,13 +409,12 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="Got working key events with coloring. Still no solution on the Del-key" />
     <MESSAGE value="Had a working version, but right now a new phrase dictionary holds me up. The key-events works as long as the cursor is in the &quot;typing pane&quot;." />
     <MESSAGE value="Working version with phrases. Need to fix layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working version with phrases. Need to fix layout." />
+    <MESSAGE value="Adding file to support Electron packaging" />
+    <MESSAGE value="Add Levenshtein.js to prj" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Levenshtein.js to prj" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -427,20 +440,85 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1920">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#64#0" expanded="false" />
+            <element signature="n#!!block;n#TypedKey#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#64#0" expanded="false" />
+            <element signature="n#!!block;n#TypedKey#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
@@ -448,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="705">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
           <folding />
         </state>
@@ -456,301 +534,254 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2085">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2085">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
+        <state vertical-scroll-proportion="0.0">
           <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1920">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="2085">
+        <state vertical-scroll-proportion="0.0">
           <caret line="34" column="7" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5925">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1471" max-vertical-offset="4140">
+        <state vertical-scroll-proportion="0.0">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1471" max-vertical-offset="4140">
+        <state vertical-scroll-proportion="0.0">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="2025">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1846" max-vertical-offset="4140">
+        <state vertical-scroll-proportion="0.0">
           <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1920">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tOUCH.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1440">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4005">
+        <state vertical-scroll-proportion="0.0">
           <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
           <folding>
+            <element signature="e#16#64#0" expanded="false" />
             <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1605">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery/jquery-1.9.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="42350" max-vertical-offset="143865">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2751" column="0" selection-start-line="2751" selection-start-column="0" selection-end-line="2751" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jquery/jquery-2.1.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09756097" vertical-offset="50329" max-vertical-offset="136575">
+        <state vertical-scroll-proportion="0.09756097">
           <caret line="3371" column="3" selection-start-line="3371" selection-start-column="3" selection-end-line="3371" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/knockout/knockout-2.3.0.debug.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15054" max-vertical-offset="55200">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1018" column="0" selection-start-line="1018" selection-start-column="0" selection-end-line="1018" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tOUCH.css">
+    <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="357" column="37" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!block;n#TypedKey#0" expanded="false" />
-            <element signature="n#!!block;n#keyboardViewModel#0" expanded="false" />
-            <element signature="n#!!block;n#createPhraseLibrary#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="165">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.html">
+    <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.125" vertical-offset="0" max-vertical-offset="1920">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="3" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tOUCH.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Levenshtein.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard.viewmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6048387">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#4;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#16#64#0" expanded="false" />
+            <element signature="n#!!block;n#TypedKey#0" expanded="false" />
           </folding>
         </state>
       </provider>

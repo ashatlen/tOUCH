@@ -95,7 +95,8 @@ function keyboardViewModel ()
             clearPanel: clearPanel,
             renderTypedText: renderTypedText
         };
-    };
+    }
+
     var typePanel= new TypePanel("contentOverlay");
 
     function getCharValue(data) {
@@ -174,6 +175,7 @@ function keyboardViewModel ()
         if (countThisKey)
             numberOfStrokes(numberOfStrokes() + 1);
     };
+
     var handleKeyRelease = function (data) {
         var aChar = getCharValue(data);
         if (aChar == undefined)
@@ -360,6 +362,25 @@ function createPhraseLibrary(startNo)
 //    var self= this;
     var currentPhrase= startNo;
     var phraseLibrary= [
+        "fjfjfjfj",
+        "tytytyty",
+        "vnvnvnvn",
+        "fjtyfjty",
+        "nynyny",
+
+        "gutt gutt",
+        "bygg bygg",
+        "tung tung",
+        "brygg",
+        "brun",
+        "grunn",
+        "grynt",
+        "trygg",
+        "gytt",
+        "futt",
+        "tyv",
+
+        "",
         "Hei",
         "Hei på deg",
         "Hvordan går det med deg",
