@@ -30,7 +30,7 @@
 
 <div style="visibility:visible;" class="envlable"><p class="envtext envtextTest">Utvikling</p></div>
 
-<div style="position: fixed; left:70px; top: 40px;width:500px; height: 400px" class="app-area">
+<div class="app-area">
     <h2 style="position: relative;text-align: center">tOUCH</h2>
     <p style="position: relative;text-align: center" class="error" data-bind="text: error"></p>
     <div style=" position:relative; down:40px; margin_left: 20px; flow: left;">
@@ -50,7 +50,7 @@
            <td class="KeyCell"><button class="KeyButton" id="keyDel">Del</button></td>
         </tr>
         </table>
-        <table id="KeyboardLayoutTableRow2" class="ui-tabs KeyboardLayout">
+        <table id="KeyboardLayoutTableRow1" class="ui-tabs KeyboardLayout">
         <tr>
             <td class="KeyCell"><button class="KeyButton" id="keyQ">Q</button></td>
             <td class="KeyCell"><button class="KeyButton" id="keyW">W</button></td>
@@ -65,7 +65,7 @@
             <td class="KeyCell"><button class="KeyButton" id="keyÅ">Å</button></td>
         </tr>
         </table>
-        <table id="KeyboardLayoutTableRow3" class="ui-tabs KeyboardLayout">
+        <table id="KeyboardLayoutTableRow2" class="ui-tabs KeyboardLayout">
         <tr>
             <td class="KeyAdjust2Q"></td>
             <td class="KeyCell"><button class="KeyButton" id="keyA">A</button></td>
@@ -81,7 +81,7 @@
             <td class="KeyCell"><button class="KeyButton" id="keyÆ">Æ</button></td>
         </tr>
         </table>
-        <table id="KeyboardLayoutTableRow1" class="ui-tabs KeyboardLayout">
+        <table id="KeyboardLayoutTableRow3" class="ui-tabs KeyboardLayout">
         <tr>
             <td class="KeyCell"><button class="KeyButton" id="keyShift">Shift</button></td>
             <td class="KeyCell"><button class="KeyButton" id="keyZ">Z</button></td>
@@ -105,14 +105,16 @@
             </tr>
         </table>
     </div>
-    <div class="center">
+    <div class="center ">
         <table>
         <tr>
             <td>
+                <div class="ReadingPaneContainer">
                 <span id="ExpectedText" class="ReadingPane" data-bind="text: expectedText"></span>
+                </div>
                 <div style="position: absolute; left: 100px;">
                     <div id="contentOverlay" style="position: absolute; left: 5px; top: 5px"></div>
-                    <textarea style="left: 5px; top: 5px; min-width: 200px; min-height: 50px" id="typingPane" class="TypingPane"></textarea>
+                    <textarea id="typingPane" class="TypingPane"></textarea>
                 </div>
             </td>
         </tr>

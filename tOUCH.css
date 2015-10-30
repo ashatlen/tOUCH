@@ -30,11 +30,26 @@
 
 .app-area {
     background-color: wheat;
+    font-size-adjust: 24;
+    position: fixed;
+    left:70px;
+    top: 40px;
+    width:700px;
+    height: 500px;
+}
+
+.ReadingPaneContainer
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .ReadingPane {
-    margin-left: 20px;
+    padding: 5px;
+    margin: 4px;
     background: #aaaaaa;
+    font-size: 24px;
 }
+
 
 .status-display {
     border-style: none;
@@ -70,34 +85,46 @@
 
 .KeyboardLayoutArea {
     background: #ffffdd;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 40px;
     padding: 3px;
+    width: 100%;
 }
 .KeyboardLayout {
     margin: 5px;
 }
+
 #KeyboardLayoutTableRow1 {
-    margin-left: 0px;
-}
-#KeyboardLayoutTableRow2 {
     margin-left: 37px;
 }
-#KeyboardLayoutTableRow3 {
+
+#KeyboardLayoutTableRow2 {
     margin-left: 42px;
 }
+
+#KeyboardLayoutTableRow3 {
+    margin-left: 0px;
+}
+
+#KeyboardLayoutTableRow4 {
+    vertical-align: middle;
+}
+
 .KeyCell {
-    margin: 10px;
-    cell-padding: 5px;
+    cell-padding: 3px;
 }
 .KeyButton {
-    font-size: 20px;
+    margin: 2px;
+    padding: 2px;
+    font-size: 30px;
     font-weight: 600;
     background: lightgreen;
+    height: 45px;
+    min-width: 50px;
 }
 
 .KeyButtonRequired {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 600;
     background: #90eedd;
 }
@@ -110,14 +137,16 @@
 }
 
 .TypingPane {
-    margin: 0px;
+    margin: 5px;
     background: lightgray;
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    height: 60px;
     font-size: 26px;
-    float: left;
+    left: 5px;
+    top: 5px;
+    min-width: 200px;
+    min-height: 60px
 }
 .matchKey {
     color: green;
